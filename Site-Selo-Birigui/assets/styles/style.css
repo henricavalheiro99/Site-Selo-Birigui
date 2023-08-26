@@ -91,4 +91,19 @@ font-family: 'Niramit', sans-serif;
     }
 }
 
-/* Header------------------------------------------------------------------------------------ */
+/* Main------------------------------------------------------------------------------------ */
+
+main {
+    height: 200vh
+}
+
+/* Footer */
+
+#footer{
+    width: auto;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
