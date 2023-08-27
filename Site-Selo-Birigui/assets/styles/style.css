@@ -102,8 +102,52 @@ main {
 #footer{
     width: auto;
     height: 100px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
     align-items: center;
+    padding: 15px;
+    justify-items: center;
 }
+
+.fa-instagram:hover,
+.fa-github:hover,
+.fa-envelope:hover
+{
+    transform: scale(1.15);
+}
+
+.fa-instagram:before,
+.fa-github:before,
+.fa-envelope:before 
+{
+    content: "\f16d";
+    font-size: 48px;
+    color: var(--preto);
+    padding-left: 8px;
+}
+
+#img-footer-brasao{
+    width: 120px;
+    height: 100px;
+    padding-right: 30px;
+}
+
+#img-footer-logo{
+    width: 200px;
+    height: 160px;
+}
+
+.icones-redes-sociais{
+    padding-bottom: 5px;
+}
+
+.PorHenri{
+    font-size: 24px;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.Creditos-footer{
+    text-align: center;
+}
+
