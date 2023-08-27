@@ -4,7 +4,7 @@ font-family: 'Niramit', sans-serif;
 
 :root{
     --preto: #000000;
-    --cinza: #474747;
+    --cinza: #8a8a8a;
     --branco: #FFFFFF;
     --cor-dos-cards: #F5F5F5;
     --cor-drop-shadow: #B5B5B5;
@@ -72,7 +72,7 @@ font-family: 'Niramit', sans-serif;
 
 .a-header:hover{
     transform: scale(1.1);
-    animation: letspace 0.7s;
+    animation: letspace 1s;
 }
 
 .a-header:active{
@@ -94,10 +94,53 @@ font-family: 'Niramit', sans-serif;
 /* Main------------------------------------------------------------------------------------ */
 
 main {
-    height: 200vh
+    height: 200vh;
+    width: auto;
 }
 
-/* Footer */
+#title-localizacao{
+    text-align: center;
+    padding-top: 35px;
+    color: var(--preto);
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 32px;
+    padding-bottom: 20px;
+}
+
+#divisao-mapa-descricao{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding: 20px;
+}
+
+#mapa-birigui{
+    width: 300px;
+    height: 300px;
+    padding-left: 50px;
+    cursor: pointer;
+}
+
+#mapa-birigui:hover{
+    transform: scale(1.05);
+    transition: 1s;
+}
+
+#descricao-localizacao{
+    font-size: 22px;
+    color: var(--cinza);
+    font-family: 'Niramit', sans-serif;
+    text-align: center;
+    padding-bottom: 15px;
+    padding-right: 30px;
+}
+
+
+
+
+/* Footer----------------------------------------------------------------------------------- */
 
 #footer{
     width: auto;
@@ -150,4 +193,6 @@ main {
 .Creditos-footer{
     text-align: center;
 }
+
+
 
