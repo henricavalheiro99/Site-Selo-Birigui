@@ -10,6 +10,10 @@ font-family: 'Niramit', sans-serif;
     --cor-drop-shadow: #B5B5B5;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -94,11 +98,12 @@ font-family: 'Niramit', sans-serif;
 /* Main------------------------------------------------------------------------------------ */
 
 main {
-    height: 200vh;
+    height: auto;
     width: auto;
 }
 
-#title-localizacao{
+#title-localizacao,
+#title-carrossel{
     text-align: center;
     padding-top: 35px;
     color: var(--preto);
@@ -137,7 +142,48 @@ main {
     padding-right: 30px;
 }
 
+/* Section 2 ------------------------------------------------------------------------------- */
 
+#section-carrossel{
+    background-color: var(--preto);
+}
+
+#title-carrossel{
+    color: var(--branco);
+    padding-bottom: 40px;
+}
+
+.imagendescricao{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.descricao-imagens-carrossel{
+    color: var(--cor-drop-shadow);
+    padding-top: 10px;
+    font-family: 'Niramit', sans-serif;
+    text-align: center;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.descricao-imagens-carrossel:hover{
+    animation: letspace 0.8s;
+}
+
+.imagens-carrossel{
+    height: 220px;
+    width: 220px;
+    cursor: pointer;
+}
+
+.imagens-carrossel:hover{
+    transform: scale(1.075);
+    transition: 0.8s;
+}
 
 
 /* Footer----------------------------------------------------------------------------------- */
