@@ -71,8 +71,8 @@ font-family: 'Niramit', sans-serif;
 }
 
 .a-header:hover{
-    transform: scale(1.1);
-    animation: letspace 1s;
+    transform: scale(1.15);
+    transition: 0.5s;
 }
 
 .a-header:active{
@@ -124,8 +124,8 @@ main {
 }
 
 #mapa-birigui:hover{
-    transform: scale(1.05);
-    transition: 1s;
+    transform: scale(1.075);
+    transition: 0.8s;
 }
 
 #descricao-localizacao{
@@ -172,13 +172,20 @@ main {
 
 #img-footer-brasao{
     width: 120px;
-    height: 100px;
+    height: 110px;
     padding-right: 30px;
 }
 
 #img-footer-logo{
     width: 200px;
-    height: 160px;
+    height: 170px;
+}
+
+#img-footer-brasao:hover,
+#img-footer-logo:hover{
+    transform: scale(1.1);
+    transition: 0.8s;
+    cursor: pointer;
 }
 
 .icones-redes-sociais{
@@ -188,6 +195,11 @@ main {
 .PorHenri{
     font-size: 24px;
     font-family: 'Montserrat Alternates', sans-serif;
+    cursor: pointer;
+}
+
+.PorHenri:hover{
+    animation: letspace 0.8s;
 }
 
 .Creditos-footer{
