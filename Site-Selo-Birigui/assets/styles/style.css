@@ -108,7 +108,8 @@ main {
 #title-carrossel,
 #title-indicacao,
 #title-beneficios,
-#title-selo{
+#title-selo,
+#title-por-fim{
     text-align: center;
     padding-top: 35px;
     color: var(--preto);
@@ -159,7 +160,8 @@ main {
 }
 
 #title-carrossel,
-#title-selo{
+#title-selo,
+#title-por-fim{
     color: var(--branco);
     padding-bottom: 30px;
 }
@@ -367,7 +369,7 @@ main {
 #section-selo{
     height: 200vh;
     background: rgb(0,0,0);
-    background: linear-gradient(180deg, rgba(0,0,0,1) 60%, rgba(255,255,255,1) 90%);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 60%, rgba(255,255,255,1) 98%);
 }
 
 #title-selo{
@@ -866,6 +868,22 @@ main {
     }
 }
 
+#title-por-fim{
+    padding-top: 720px;
+}
+
+#texto-por-fim{
+    font-size: 22px;
+    color: var(--cor-dos-cards);
+    font-family: 'Niramit', sans-serif;
+    text-align: center;
+    padding: 40px;
+}
+
+#alinhar-textos{
+    align-items: center;
+}
+
 /* Footer----------------------------------------------------------------------------------- */
 
 #footer{
@@ -905,14 +923,14 @@ main {
 
 #img-footer-brasao{
     width: 120px;
-    height: 110px;
+    height: 113px;
     padding-right: 30px;
     transition: 0.8s;
 }
 
 #img-footer-logo{
     width: 200px;
-    height: 170px;
+    height: 175px;
     transition: 0.8s;
 }
 
