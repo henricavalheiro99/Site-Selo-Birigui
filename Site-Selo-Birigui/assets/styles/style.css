@@ -107,7 +107,8 @@ main {
 #title-localizacao,
 #title-carrossel,
 #title-indicacao,
-#title-beneficios{
+#title-beneficios,
+#title-selo{
     text-align: center;
     padding-top: 35px;
     color: var(--preto);
@@ -149,13 +150,17 @@ main {
     padding-right: 30px;
 }
 
+
 /* Section 2 ------------------------------------------------------------------------------- */
 
-#section-carrossel{
+
+#section-carrossel,
+#section-selo{
     background-color: var(--preto);
 }
 
-#title-carrossel{
+#title-carrossel,
+#title-selo{
     color: var(--branco);
     padding-bottom: 30px;
 }
@@ -284,7 +289,10 @@ main {
     clip-path: polygon(0 0,50% 35px,100% 0,100% 100%,0 100%);
     margin-top: -35px;
 }
+
+
 /* section 3 -------------------------------------------------------------------------------- */
+
 
 #title-indicacao{
     padding-top: 80px;
@@ -354,6 +362,27 @@ main {
     padding-bottom: 100px;
 }
 
+
+/* Section 4 -------------------------------------------------------------------------------- */
+
+
+#title-selo{
+    padding-bottom: 40px;
+}
+
+.imgs-selo-animation{
+    height: 100px;
+    width: 145px;
+}
+
+#animacao-louca{
+    display: flex;
+    flex-direction: column;
+}
+
+.img1{
+    top: ;
+}
 
 /* Footer----------------------------------------------------------------------------------- */
 
