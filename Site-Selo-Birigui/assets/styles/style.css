@@ -154,8 +154,7 @@ main {
 /* Section 2 ------------------------------------------------------------------------------- */
 
 
-#section-carrossel,
-#section-selo{
+#section-carrossel{
     background-color: var(--preto);
 }
 
@@ -365,14 +364,19 @@ main {
 
 /* Section 4 -------------------------------------------------------------------------------- */
 
+#section-selo{
+    height: 200vh;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 60%, rgba(255,255,255,1) 90%);
+}
 
 #title-selo{
     padding-bottom: 40px;
 }
 
 .imgs-selo-animation{
-    height: 100px;
-    width: 145px;
+    height: 80px;
+    width: 125px;
 }
 
 #animacao-louca{
@@ -381,7 +385,485 @@ main {
 }
 
 .img1{
-    top: ;
+    position: absolute;
+    top: 2300px;
+    left: 350px;
+    animation-name: TrocarPosicaoIMG1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+.img8{
+    position: absolute;
+    top: 2300px;
+    left: 770px;
+    animation-name: TrocarPosicaoIMG8;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+.img2{
+    position: absolute;
+    top: 2430px;
+    left: 100px;
+    animation-name: TrocarPosicaoIMG2;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+.img7{
+    position: absolute;
+    top: 2430px;
+    left: 1020px;
+    animation-name: TrocarPosicaoIMG7;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+.img3{
+    position: absolute;
+    top: 2630px;
+    left: 100px;
+    animation-name: TrocarPosicaoIMG3;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+.img6{
+    position: absolute;
+    top: 2630px;
+    left: 1020px;
+    animation-name: TrocarPosicaoIMG6;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+.img4{
+    position: absolute;
+    top: 2820px;
+    left: 350px;
+    animation-name: TrocarPosicaoIMG4;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+.img5{
+    position: absolute;
+    top: 2820px;
+    left: 770px;
+    animation-name: TrocarPosicaoIMG5;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+.logo-selo{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 480px;
+    top: 2430px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.logo-selo:hover{
+    transform: scale(1.1);
+    animation-delay: 0.5s;
+    animation: logoGirando 1s;
+    transition: 0.8s;
+}
+
+
+@keyframes TrocarPosicaoIMG1 {
+    0%{
+        position: absolute;
+        top: 2300px;
+        left: 350px;
+    }
+    12.5%{
+        position: absolute;
+        top: 2430px;
+        left: 100px;
+    }
+    25%{
+        position: absolute;
+        top: 2630px;
+        left: 100px;
+    }
+    37.5%{
+        position: absolute;
+        top: 2820px;
+        left: 350px;
+    }
+    50%{
+        position: absolute;
+        top: 2820px;
+        left: 770px;
+    }
+    62.5%{
+        position: absolute;
+        top: 2630px;
+        left: 1020px;
+    }
+    75%{
+        position: absolute;
+        top: 2430px;
+        left: 1020px;
+    }
+    87.5%{
+        position: absolute;
+        top: 2300px;
+        left: 770px;
+    }
+    100%{
+        position: absolute;
+        top: 2300px;
+        left: 350px;
+    }
+}
+
+@keyframes TrocarPosicaoIMG2 {
+    0%{
+        position: absolute;
+        top: 2430px;
+        left: 100px;
+    }
+    12.5%{
+        position: absolute;
+        top: 2630px;
+        left: 100px;
+    }
+    25%{
+        position: absolute;
+        top: 2820px;
+        left: 350px;
+    }
+    37.5%{
+        position: absolute;
+        top: 2820px;
+        left: 770px;
+    }
+    50%{
+        position: absolute;
+        top: 2630px;
+        left: 1020px;
+    }
+    62.5%{
+        position: absolute;
+        top: 2430px;
+        left: 1020px;
+    }
+    75%{
+        position: absolute;
+        top: 2300px;
+        left: 770px;
+    }
+    87.5%{
+        position: absolute;
+        top: 2300px;
+        left: 350px;
+    }
+    100%{
+        position: absolute;
+        top: 2430px;
+        left: 100px;
+    }
+}
+
+@keyframes TrocarPosicaoIMG3 {
+    0%{
+        position: absolute;
+        top: 2630px;
+        left: 100px;
+    }
+    12.5%{
+        position: absolute;
+        top: 2820px;
+        left: 350px;
+    }
+    25%{
+        position: absolute;
+        top: 2820px;
+        left: 770px;
+    }
+    37.5%{
+        position: absolute;
+        top: 2630px;
+        left: 1020px;
+    }
+    50%{
+        position: absolute;
+        top: 2430px;
+        left: 1020px;
+    }
+    62.5%{
+        position: absolute;
+        top: 2300px;
+        left: 770px;
+    }
+    75%{
+        position: absolute;
+        top: 2300px;
+        left: 350px;
+    }
+    87.5%{
+        position: absolute;
+        top: 2430px;
+        left: 100px;
+    }
+    100%{
+        position: absolute;
+        top: 2630px;
+        left: 100px;
+    }
+}
+
+@keyframes TrocarPosicaoIMG4 {
+    0%{
+        position: absolute;
+        top: 2820px;
+        left: 350px;
+    }
+    12.5%{
+        position: absolute;
+        top: 2820px;
+        left: 770px;
+    }
+    25%{
+        position: absolute;
+        top: 2630px;
+        left: 1020px;
+    }
+    37.5%{
+        position: absolute;
+        top: 2430px;
+        left: 1020px;
+    }
+    50%{
+        position: absolute;
+        top: 2300px;
+        left: 770px;
+    }
+    62.5%{
+        position: absolute;
+        top: 2300px;
+        left: 350px;
+    }
+    75%{
+        position: absolute;
+        top: 2430px;
+        left: 100px;
+    }
+    87.5%{
+        position: absolute;
+        top: 2630px;
+        left: 100px;
+    }
+    100%{
+        position: absolute;
+        top: 2820px;
+        left: 350px;
+    }
+}
+
+@keyframes TrocarPosicaoIMG5 {
+    0%{
+        position: absolute;
+        top: 2820px;
+        left: 770px;
+    }
+    12.5%{
+        position: absolute;
+        top: 2630px;
+        left: 1020px;
+    }
+    25%{
+        position: absolute;
+        top: 2430px;
+        left: 1020px;
+    }
+    37.5%{
+        position: absolute;
+        top: 2300px;
+        left: 770px; 
+    }
+    50%{
+        position: absolute;
+        top: 2300px;
+        left: 350px;
+    }
+    62.5%{
+        position: absolute;
+        top: 2430px;
+        left: 100px;
+    }
+    75%{
+        position: absolute;
+        top: 2630px;
+        left: 100px;
+    }
+    87.5%{
+        position: absolute;
+        top: 2820px;
+        left: 350px;
+    }
+    100%{
+        position: absolute;
+        top: 2820px;
+        left: 770px;
+    }
+}
+
+@keyframes TrocarPosicaoIMG6 {
+    0%{
+        position: absolute;
+        top: 2630px;
+        left: 1020px;
+    }
+    12.5%{
+        position: absolute;
+        top: 2430px;
+        left: 1020px;
+    }
+    25%{
+        position: absolute;
+        top: 2300px;
+        left: 770px;
+    }
+    37.5%{
+        position: absolute;
+        top: 2300px;
+        left: 350px;
+    }
+    50%{
+        position: absolute;
+        top: 2430px;
+        left: 100px;
+    }
+    62.5%{
+        position: absolute;
+        top: 2630px;
+        left: 100px;
+    }
+    75%{
+        position: absolute;
+        top: 2820px;
+        left: 350px;
+    }
+    87.5%{
+        position: absolute;
+        top: 2820px;
+        left: 770px;
+    }
+    100%{
+        position: absolute;
+        top: 2630px;
+        left: 1020px;
+    }
+}
+
+@keyframes TrocarPosicaoIMG7 {
+    0%{
+        position: absolute;
+        top: 2430px;
+        left: 1020px;
+    }
+    12.5%{
+        position: absolute;
+        top: 2300px;
+        left: 770px;
+    }
+    25%{
+        position: absolute;
+        top: 2300px;
+        left: 350px;
+    }
+    37.5%{
+        position: absolute;
+        top: 2430px;
+        left: 100px;
+    }
+    50%{
+        position: absolute;
+        top: 2630px;
+        left: 100px;
+    }
+    62.5%{
+        position: absolute;
+        top: 2820px;
+        left: 350px;
+    }
+    75%{
+        position: absolute;
+        top: 2820px;
+        left: 770px;
+    }
+    87.5%{
+        position: absolute;
+        top: 2630px;
+        left: 1020px;
+    }
+    100%{
+        position: absolute;
+        top: 2430px;
+        left: 1020px;
+    }
+}
+
+@keyframes TrocarPosicaoIMG8 {
+    0%{
+        position: absolute;
+        top: 2300px;
+        left: 770px;
+    }
+    12.5%{
+        position: absolute;
+        top: 2300px;
+        left: 350px;
+    }
+    25%{
+        position: absolute;
+        top: 2430px;
+        left: 100px;
+    }
+    37.5%{
+        position: absolute;
+        top: 2630px;
+        left: 100px;
+    }
+    50%{
+        position: absolute;
+        top: 2820px;
+        left: 350px;
+    }
+    62.5%{
+        position: absolute;
+        top: 2820px;
+        left: 770px;
+    }
+    75%{
+        position: absolute;
+        top: 2630px;
+        left: 1020px;
+    }
+    87.5%{
+        position: absolute;
+        top: 2430px;
+        left: 1020px;
+    }
+    100%{
+        position: absolute;
+        top: 2300px;
+        left: 770px;
+    }
 }
 
 /* Footer----------------------------------------------------------------------------------- */
