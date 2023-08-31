@@ -312,11 +312,47 @@ main {
 
 .cards-beneficios{
     text-align: center;
-    background-color: var(--cor-dos-cards);
+    background-color: var(--branco);
     padding: 15px;
-    
+    border: none;
+    box-shadow: 15px 15px 30px #cbcbcb,
+                -15px -15px 30px #ffffff;
+    padding: 25px;
+    height: 180px;
+    width: 200px;
+    border-radius: 30px;
+    transition: 0.8s;
+    cursor: pointer;
 }
 
+.cards-beneficios:hover{
+    transform: scale(1.075);
+    transition: 0.8s;
+    background-color: #eeeeee;
+}
+
+.dar-padding-top{
+    padding-top: 40px;
+}
+
+.imgs-beneficios{
+    height: 90px;
+    width: 90px;
+}
+
+.textinho-beneficios{
+    color: var(--cor-drop-shadow);
+    padding-top: 10px;
+    font-family: 'Niramit', sans-serif;
+    text-align: center;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+#section-indicacaoGeografica{
+    padding-bottom: 100px;
+}
 
 
 /* Footer----------------------------------------------------------------------------------- */
