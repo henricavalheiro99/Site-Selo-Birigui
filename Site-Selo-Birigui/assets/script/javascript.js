@@ -24,7 +24,7 @@ controls.forEach((control) => {
     }
 
     try {
-      items[currentItem].classList.add("current-item"); // Adicionamos a classe antes da animação
+      items[currentItem].classList.add("current-item");
 
       await items[currentItem].scrollIntoView({
         inline: "center",

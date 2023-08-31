@@ -41,13 +41,14 @@ html{
     width: 100px;
     height: 100px;
     cursor: pointer;
+    transition: 0.5s;
 }
 
 #logo:hover{
     transform: scale(1.1);
     animation-delay: 0.5s;
     animation: logoGirando 1s;
-
+    transition: 0.8s;
 }
 
 @keyframes logoGirando {
@@ -72,6 +73,7 @@ html{
 .a-header{
     text-decoration: none;
     cursor: pointer;
+    transition: 0.5s;
 }
 
 .a-header:hover{
@@ -128,6 +130,7 @@ main {
     height: 300px;
     padding-left: 50px;
     cursor: pointer;
+    transition: 0.8s;
 }
 
 #mapa-birigui:hover{
@@ -208,16 +211,19 @@ main {
     text-align: center;
     font-size: 22px;
     cursor: pointer;
+    transition: 0.8s;
 }
 
 .descricao-imagens-carrossel:hover{
     animation: letspace 0.8s;
+    transition: 0.8s;
 }
 
 .imagens-carrossel{
     height: 220px;
     width: 220px;
     cursor: pointer;
+    transition: 0.8s;
 }
 
 .imagens-carrossel:hover{
@@ -245,6 +251,7 @@ main {
     right: auto;
     bottom: 30px;
     align-items: center;
+    transition: 0.8s;
 }
 
 #direita-button{
@@ -311,11 +318,18 @@ main {
     justify-items: center;
 }
 
+.fa-envelope,
+.fa-github,
+.fa-instagram{
+    transition: 0.8s;
+}
+
 .fa-instagram:hover,
 .fa-github:hover,
 .fa-envelope:hover
 {
     transform: scale(1.15);
+    transition: 0.8s;
 }
 
 .fa-instagram:before,
@@ -332,11 +346,13 @@ main {
     width: 120px;
     height: 110px;
     padding-right: 30px;
+    transition: 0.8s;
 }
 
 #img-footer-logo{
     width: 200px;
     height: 170px;
+    transition: 0.8s;
 }
 
 #img-footer-brasao:hover,
@@ -354,6 +370,7 @@ main {
     font-size: 24px;
     font-family: 'Montserrat Alternates', sans-serif;
     cursor: pointer;
+    transition: 0.8s;
 }
 
 .PorHenri:hover{
