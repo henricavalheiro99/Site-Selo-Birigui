@@ -390,7 +390,7 @@ main {
 }
 
 #title-selo{
-    padding-bottom: 40px;
+    padding-bottom: 100px;
 }
 
 .imgs-selo-animation{
@@ -399,6 +399,7 @@ main {
 }
 
 #animacao-louca{
+    padding-top: 20px;
     display: flex;
     flex-direction: column;
 }
@@ -926,6 +927,10 @@ main {
     background-size: 100% calc(2vw + 90px);
     }
     }
+
+#section-selo{
+    margin-top: -5px;
+}
      
 /* Footer----------------------------------------------------------------------------------- */
 
